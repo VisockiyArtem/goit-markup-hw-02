@@ -14,18 +14,18 @@ ul {
 }
 .logo {
     font-family: "Raleway" , sans-serif;
-    font-weight: 700;
+    font-weight: 500;
         font-size: 18px;
-        line-height: 1.17;
+        line-height: 1.5;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
 }
 
 .logo-studio {
-    font-weight: 700;
+    font-weight: 500;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.5;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #2e2f42;
@@ -35,6 +35,7 @@ ul {
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
+    font-weight: 500;
     gap: 40px;
     width: 261px;
     height: 24px;
@@ -68,6 +69,7 @@ ul {
             line-height: 1.5;
             letter-spacing: 0.04em;
             color: #fff;
+            cursor: pointer;
 }
 .section-feature{
     font-weight: 500;
