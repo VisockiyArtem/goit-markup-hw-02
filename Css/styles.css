@@ -41,7 +41,7 @@ ul {
     height: 24px;
 }
 .header-item-menu {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -137,6 +137,8 @@ ul {
         color: #434455;
 }
 .footer {
+    font-weight: 700;
+    line-height: 1.17;
     background: #2e2f42;;
 }
 .footer-paragraph {
