@@ -148,3 +148,6 @@ ul {
         text-transform: uppercase;
         color: #f4f4fd;
 }
+.none {
+    display: none;
+}
