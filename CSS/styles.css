@@ -48,6 +48,13 @@ ul {
     color: #2e2f42;
     
 }
+.header-item-menu {
+    line-height: 1.5;
+    letter-spacing: 0.02;
+    color: #2e2f42;
+    
+
+}
 .section {
     background: #2e2f42;
     font-weight: 700;
