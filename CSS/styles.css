@@ -30,6 +30,7 @@ ul {
     text-transform: uppercase;
     color: #2e2f42;
 }
+
 .link {
     font-family: "Roboto" , sans-serif;
     align-items: flex-start;
@@ -40,6 +41,7 @@ ul {
     width: 261px;
     height: 24px;
 }
+
 .header-menu-item {
     font-weight: 500;
     font-size: 16px;
@@ -54,6 +56,10 @@ ul {
     color: #2e2f42;
 
 }
+.header-address {
+    font-style: normal;
+}
+
 .header-item-menu {
     line-height: 1.5;
     letter-spacing: 0.02;
