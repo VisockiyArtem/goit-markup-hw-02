@@ -35,8 +35,6 @@ ul {
     font-family: "Roboto" , sans-serif;
     justify-content: flex-start;
     font-weight: 500;
-    width: 261px;
-    height: 24px;
     color:#434455 ;
 }
 
@@ -96,9 +94,7 @@ ul {
 }
 .button {
     font-family: "Roboto", sans-serif;
-    border-radius: 4px;
     background: #4d5ae5;
-    display: flex;
     justify-content: flex-start;
     font-weight: 500;
     font-size: 16px;
