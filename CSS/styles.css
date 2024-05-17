@@ -58,10 +58,10 @@ ul {
 
 }
 
-.navigation-link:hover {
+.link:hover {
     color: #404bbf;
 }
-.navigation-link:focus {
+.link:focus {
     color: #404bbf;
 }
 
