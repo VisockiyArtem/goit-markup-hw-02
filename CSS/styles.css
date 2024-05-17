@@ -58,9 +58,11 @@ ul {
 
 }
 
-.navigation-link.link:hover ,
+.navigation-link.link:hover {
+    color: #404bbf;
+}
 .navigation-link.link:focus {
-    color:#404bbf;
+    color: #404bbf;
 }
 
 .header-address {
