@@ -71,11 +71,18 @@ ul {
 
 .header-item-menu {
     line-height: 1.5;
-    letter-spacing: 0.02;
-    color: #2e2f42;
-    
-
+    letter-spacing: 0.02em;
+    color: #434455;
 }
+
+.header-item-menu:hover {
+    color:#404bbf;
+}
+
+.header-item-menu:focus {
+    color:#404bbf;
+}
+
 .section {
     background: #2e2f42;
     font-weight: 700;
