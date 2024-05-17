@@ -46,6 +46,12 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+.navigation-link ,
+.link {
+    line-height: 1.5;
+    letter-spacing: 0.02;
+    color: #2e2f42;
     
 }
 .header-item-menu {
