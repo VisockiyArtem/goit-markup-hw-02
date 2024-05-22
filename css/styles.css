@@ -54,6 +54,8 @@ ul {
  .header-menu {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
+    padding: 24px 0 24px;
  }
 
  .headre-menu-item-m {
@@ -76,6 +78,10 @@ ul {
 
 .header-address {
     display: flex;
+    gap: 40px;
+}
+
+.header-menu-contacts {
     margin-right: 40px;
     margin-right: 0;
 }
