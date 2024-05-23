@@ -20,7 +20,6 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px
 }
 
 .logo-studio {
@@ -39,34 +38,33 @@ ul {
     color:#434455 ;
 }
  .header {
-    border-bottom: 1px solid #e7e9fc
+    width: 1440px;
+    margin: 0 auto;
  }
 
- .header-div {
+ .header-div-container {
     display: flex;
- }
- .container {
-    width: 1158px;
-    margin: 0;
-    padding: 0 15px 0 15px
+    align-items: center;
  }
 
  .header-menu {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
-    padding: 24px 0 24px;
  }
 
- .headre-menu-item-m {
-    margin-right: 0;
- }
+  .header-address-menu {
+      display: flex;
+      gap: 40px;
+  }
+ 
  
 .header-navigation {
     display: flex;
     align-items: center;
-    padding: 24px 0 24px
+    flex-grow: 1;
 }
+
+
 
 .header-menu-item {
     font-weight: 500;
@@ -76,14 +74,13 @@ ul {
     color: #2e2f42;
 }
 
-.header-address {
+.container {
     display: flex;
-    gap: 40px;
 }
 
-.header-menu-contacts {
-    margin-right: 40px;
-    margin-right: 0;
+.header-address-menu {
+    display: flex;
+    align-items: center;
 }
 
 .navigation-link ,
@@ -118,6 +115,7 @@ ul {
     color:#404bbf;
 }
 
+
 .section {
     background: #2e2f42;
     font-weight: 700;
@@ -126,11 +124,18 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    width: 1440px;
+    height: 600px;
+    padding: 188px 0;
 }
 .section-effective {
     font-size: 56px;
     line-height:1.07;
     letter-spacing: 0.02;
+    width: 496px;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 .button {
     font-family: "Roboto", sans-serif;
@@ -142,6 +147,13 @@ ul {
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+        display: block;
+        margin: auto;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
 }
 
 .button:hover {
