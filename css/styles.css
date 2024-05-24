@@ -200,6 +200,7 @@ position: absolute;
 }
 
 .section-feature {
+    margin-bottom: 8px;
     width: calc((100% - 72px) / 4);
 }
 
@@ -385,6 +386,7 @@ position: absolute;
 }
 .section-item-ourteam {
     background: #fff;
+    width: calc((100% - 72px) / 4);
 }
 .our-portfolio {
     font-weight: 700;
