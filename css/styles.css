@@ -374,6 +374,7 @@ position: absolute;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42;
+    margin-bottom: 8px
 }
 
 .section-paragraph-ourteam {
@@ -388,6 +389,12 @@ position: absolute;
     background: #fff;
     width: calc((100% - 72px) / 4);
 }
+
+.section-our-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .our-portfolio {
     font-weight: 700;
     font-size: 36px;
@@ -396,6 +403,7 @@ position: absolute;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 .section-text-portfolio {
     font-weight: 500;
