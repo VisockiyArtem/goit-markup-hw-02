@@ -181,9 +181,7 @@ img {
     gap: 24px;
 }
 
-.section-item {
-    width: calc((100% - 3 * 24px) / 4);
-}
+
 
 .advantage {
     padding: 120px 0;
@@ -201,18 +199,26 @@ img {
 .container-ourteam {
     padding-top: 120px;
     padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .our-team {
     padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .section-menu-ourteam {
     display: flex;
+    gap: 24px;
 }
 
 .section-item-ourteam {
     margin-right: 24px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.mark {
+    padding: 32px 0
 }
 
 .img-our-team {
@@ -223,7 +229,9 @@ img {
 }
 
 .section-ourteam-comand {
-     margin-bottom: 8px;
+    text-align: center;
+    margin-bottom: 8px
+    
 }
 
 .section-paragraph-ourteam {
