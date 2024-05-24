@@ -56,7 +56,11 @@ img {
 }
 
 .header-menu {
-    padding: 24px 0;
+    padding: 24px 0
+}
+
+.class-items{
+    padding: 24px 0
 }
 
 .header-menu-item {
@@ -229,7 +233,6 @@ position: absolute;
 }
 
 .section-item-ourteam {
-    flex-basis: calc((100% - 72px) / 4);
     margin-right: 24px;
     border-radius: 0px 0px 4px 4px;
 }
