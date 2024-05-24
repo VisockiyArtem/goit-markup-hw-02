@@ -201,12 +201,12 @@ position: absolute;
 
 .section-feature {
     margin-bottom: 8px;
-    width: calc((100% - 72px) / 4);
 }
 
 .section-item {
     width: 264px;
     height: 72px;
+    width: calc((100% - 72px) / 4);
 }
 
 .container-ourteam {
@@ -231,6 +231,7 @@ position: absolute;
 .section-item-ourteam {
     margin-right: 24px;
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 
 .name-our {
@@ -347,6 +348,9 @@ position: absolute;
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+
+
 .section-ourteam {
     background-color: #f4f4fd;
 }
@@ -387,7 +391,6 @@ position: absolute;
 }
 .section-item-ourteam {
     background: #fff;
-    width: calc((100% - 72px) / 4);
 }
 
 .section-our-portfolio {
