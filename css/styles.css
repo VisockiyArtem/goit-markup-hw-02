@@ -204,8 +204,6 @@ position: absolute;
 }
 
 .section-item {
-    width: 264px;
-    height: 72px;
     width: calc((100% - 72px) / 4);
 }
 
