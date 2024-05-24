@@ -204,6 +204,8 @@ position: absolute;
 }
 
 .section-item {
+    width: 264px;
+    height: 72px;
     width: calc((100% - 72px) / 4);
 }
 
@@ -227,9 +229,9 @@ position: absolute;
 }
 
 .section-item-ourteam {
+    flex-basis: calc((100% - 72px) / 4);
     margin-right: 24px;
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 72px) / 4);
 }
 
 .name-our {
