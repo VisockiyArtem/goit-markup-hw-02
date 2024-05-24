@@ -136,6 +136,7 @@ img {
     display: flex;
     gap: 40px;
     margin-right: 155px;
+    padding: 24px 0;
 }
 
 .section {
