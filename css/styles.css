@@ -394,6 +394,7 @@ position: absolute;
 }
 .section-item-ourteam {
     background: #fff;
+    width: calc((100% - 72px) / 4);
 }
 
 .section-our-portfolio {
