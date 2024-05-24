@@ -235,6 +235,7 @@ position: absolute;
 .section-item-ourteam {
     margin-right: 24px;
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 
 .name-our {
@@ -394,7 +395,6 @@ position: absolute;
 }
 .section-item-ourteam {
     background: #fff;
-    width: calc((100% - 72px) / 4);
 }
 
 .section-our-portfolio {
