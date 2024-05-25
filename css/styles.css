@@ -212,16 +212,14 @@ img {
 }
 
 .container-ourteam {
-    padding-bottom: 120px;
-    padding: 120px 0;
 }
 
 .section-ourteam {
+    padding: 120px 0;
 }
 
 .our-team {
     padding-bottom: 72px;
-    margin-bottom: 72px;
 }
 
 .section-menu-ourteam {
@@ -230,9 +228,8 @@ img {
 }
 
 .section-item-ourteam {
-   
     border-radius: 0px 0px 4px 4px;
-}у
+}
 
 .name-our {
     text-align: center;
