@@ -175,21 +175,19 @@ img {
 }
 
 .visually-hidden {
-position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    white-space: nowrap;
-}
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
 
 .container-advantag {
-    padding-top: 124px;
-    padding-bottom: 120px;
-    padding: 120px 0;
 }
 
 .section-menu {
@@ -219,7 +217,6 @@ position: absolute;
 }
 
 .section-ourteam {
-    padding: 120px 0;
 }
 
 .our-team {
@@ -233,17 +230,12 @@ position: absolute;
 }
 
 .section-item-ourteam {
-    margin-right: 24px;
+   
     border-radius: 0px 0px 4px 4px;
-}
-
-.first-list {
-    width: calc((100% - 72px) / 4);
-}
+}у
 
 .name-our {
     text-align: center;
-    margin-bottom: 8px;
     padding: 32px 0;
 }
 
@@ -256,12 +248,12 @@ position: absolute;
 
 .section-ourteam-comand {
     text-align: center;
-    margin-bottom: 8px
-    
+    padding-top: 32px;
+    padding-bottom: 8px;
 }
 
 .section-paragraph-ourteam {
-    margin-bottom: 32px;
+    padding-bottom: 32px;
 }
 
 .container-portfolio {
